@@ -1,3 +1,9 @@
+*~
+*.o
+*.eg
+.kdev4
+.svn
+.hg
 \.pyc$
 ^experiments/issue[0-9]*/data/
 ^misc/autodoc/downward-xmlrpc\.secret$
