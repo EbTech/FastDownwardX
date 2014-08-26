@@ -1,0 +1,6 @@
+#! /bin/bash
+
+./build_all 
+translate/translate.py ../benchmarks/blocks/probBLOCKS-8-0.pddl 
+preprocess/preprocess < output.sas 
+search/downward --search "astar(experience())" < output
